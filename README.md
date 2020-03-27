@@ -1,3 +1,6 @@
+Current version only works locally. SSL certificates need to be added to book-reminder-api for it to work in AWS.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

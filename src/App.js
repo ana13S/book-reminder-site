@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://book-reminder-api-tancred.us-west-1.elasticbeanstalk.com/book-reminder')
+    fetch('http://book-reminder-api-tancred.us-west-1.elasticbeanstalk.com/book-reminder')
       .then(response => response.json())
       .then(bookList => this.setState({ bookList }));
   }

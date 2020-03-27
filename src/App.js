@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://book-reminder-api-tancred.us-west-1.elasticbeanstalk.com/book-reminder')
+    fetch('https://book-reminder-api-tancred.us-west-1.elasticbeanstalk.com/book-reminder')
       .then(response => response.json())
       .then(bookList => this.setState({ bookList }));
   }
@@ -62,6 +62,7 @@ class App extends React.Component {
 
   render() {
     return (<div>
+      <div className="title"><h1>Books That I Procastinate On</h1></div>
       <div className="sorting-bar">
       <SortingBar updateSorting={this.updateSorting} />
       </div>

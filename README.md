@@ -1,5 +1,6 @@
-Current version only works locally. SSL certificates need to be added to book-reminder-api for it to work in AWS.
+Website is accessible at https://master.d1e5tqstyygo9v.amplifyapp.com/ 
 
+Uses cloudfront distribution as a middle-man between book-reminder-site and book-reminder-api.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
